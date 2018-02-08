@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation POM testng test suite" >
+<!-- <listeners>
+		<listener class-name="com.crm.qa.ExtentReports.ExtentReporterNG" />
+	</listeners> -->
+
+
+<test name ="POM TestNg Extent Report Listener Example">
+<classes>
+
+<class name="com.crm.qa.testcases.LoginPageTest"/>
+
+</classes>
+
+
+</test>
+
+
+</suite>

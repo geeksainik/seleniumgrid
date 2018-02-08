@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Gmail test suite">
+<test name ="Gmail testng test">
+
+
+<parameter name="url" value="https://www.google.com/gmail/"></parameter>
+<parameter name="username" value="harshitha.sayana@gmail.com"></parameter>
+<parameter name="pswd" value="sayanaharshi81"></parameter>
+<classes>
+<class name="com.testng.ParameterTest"></class>
+
+
+</classes>
+
+
+</test>
+
+
+</suite>

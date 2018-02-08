@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Automation testng test suite]" guice-stage="DEVELOPMENT">
+  <test name="testng feature test(failed)">
+    <classes>
+      <class name="sampletestng.GoogleTest">
+        <methods>
+          <include name="signcheck"/>
+          <include name="logocheck"/>
+          <include name="close"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- sampletestng.GoogleTest -->
+      <class name="sampletestng.InvocationTimeoutTest">
+        <methods>
+          <include name="countcheck"/>
+        </methods>
+      </class> <!-- sampletestng.InvocationTimeoutTest -->
+    </classes>
+  </test> <!-- testng feature test(failed) -->
+</suite> <!-- Failed suite [Automation testng test suite] -->

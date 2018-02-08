@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation testng test suite" parallel="tests" thread-count="7">
+<test name ="testng feature test">
+<classes>
+
+<class name="sampletestng.AssertTest"/>
+<class name="sampletestng.ExpectedExceptionTest"/>
+<class name="sampletestng.GoogleTest"/>
+<class name="sampletestng.InvocationCountTest"/>
+<class name="sampletestng.InvocationTimeoutTest"/>
+<class name="sampletestng.Testngbasics"/>
+<class name="sampletestng.TestNGFeatures"/>
+
+</classes>
+
+
+</test>
+
+
+</suite>
